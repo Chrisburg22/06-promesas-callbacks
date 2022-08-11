@@ -6,4 +6,4 @@ buscarHeroe( 'capi' )
 
 buscarHeroeAsync( 'spider2' )
                                             .then( heroe => console.log(heroe) )
-                                            .catch( console.log );
+                                            .catch( console.warn );
